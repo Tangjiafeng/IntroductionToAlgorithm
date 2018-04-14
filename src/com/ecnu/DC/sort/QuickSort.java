@@ -1,6 +1,6 @@
 package com.ecnu.DC.sort;
 
-import com.ecnu.DC.sort.test.QuickSortTest;
+import com.ecnu.DC.sort.test.SortTest;
 
 public class QuickSort {
     public void qSort(int[] A, int l, int r) {
@@ -22,11 +22,9 @@ public class QuickSort {
             A[r] = A[i + 1];
             A[i + 1] = temp;
             p = i + 1;
-            QuickSortTest.print(A);
+            SortTest.print(A);
             qSort(A, l, p - 1);
             qSort(A, p + 1, r);
         }
-
-
     }
 }
