@@ -1,6 +1,5 @@
-package com.ecnu.DC.sort.test;
-import com.ecnu.DC.sort.InsertSort;
-import com.ecnu.DC.sort.QuickSort;
+package com.ecnu.sort.test;
+import com.ecnu.sort.QuickSort;
 
 public class SortTest {
     public static void main(String args[]) {

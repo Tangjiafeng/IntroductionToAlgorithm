@@ -1,6 +1,6 @@
-package com.ecnu.DC.sort;
+package com.ecnu.sort;
 
-import com.ecnu.DC.sort.test.SortTest;
+import com.ecnu.sort.test.SortTest;
 
 public class QuickSort {
     public void qSort(int[] A, int l, int r) {
